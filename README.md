@@ -32,3 +32,5 @@ The Midday Dip (11:00 AM – 3:00 PM): Emissions often level off or dip slightly
 The Evening Peak (5:00 PM – 8:00 PM): A second, broader peak occurs as the evening rush hour brings commuters home, and residential energy use for heating, cooling, lighting, and cooking surges.
 
 The Nighttime Trough (11:00 PM – 5:00 AM): Emissions plummet to their lowest levels as traffic disappears, businesses close, and the city sleeps.
+
+<img width="1280" height="720" alt="night-time image" src="https://github.com/user-attachments/assets/08f58b7e-d7c0-4754-b8aa-374e74293017" />
