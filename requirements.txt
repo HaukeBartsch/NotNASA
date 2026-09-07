@@ -1,0 +1,6 @@
+numpy>=2.0
+scipy>=1.11
+pillow>=10
+fastapi>=0.110
+uvicorn>=0.29
+playwright>=1.40
