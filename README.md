@@ -2,7 +2,7 @@
 
 Instructions: Generate a weather simulation for planet earth. General goal is to simulate CO2 distribution over time from fire and high density populated areas.
 
-Step 1) Create a discretized spherical model of the planet (scaled by a variable factor). Simplify the finite element model between ground-level (higher resolution at ground, lower resolution at the oceans) and at athmospheric height of 100km (lowest uniform resolution). Implement a convection algorithms that can transfers CO2 in this finite element grid. Add sources that simulate forest fires and CO2 sources from highly populated areas.
+1) Create a discretized spherical model of the planet (scaled by a variable factor). Simplify the finite element model between ground-level (higher resolution at ground, lower resolution at the oceans) and at athmospheric height of 100km (lowest uniform resolution). Implement a convection algorithms that can transfers CO2 in this finite element grid. Add sources that simulate forest fires and CO2 sources from highly populated areas.
 
 2) Show the result of the simulation as an animated rendered movie. Use ffmpeg or three.js, geojson or alternatives. Render the athosphaeric concentraction of CO2 as smoke or clouds up to a height of 100km. The clouds should animate infront of a surface representation of planet earth. Visually, the CO2 plumes emmited from the fires should be moving based on general wind pattern in the northers and southers hemisphere.
 
@@ -23,11 +23,11 @@ The simulation of a full year uses less than 15min and about 100mb of main memor
 
 # Daily CO2 cycle in cities
 
-Urban \(\text{CO}_{2}\) emissions typically peak and trough at specific times of the day:
+Urban CO2 emissions typically peak and trough at specific times of the day:
 
 The Morning Peak (7:00 AM – 9:00 AM): This is usually the sharpest spike of the day. It is heavily driven by the morning commute (ground transportation) and households waking up, cooking, and turning on utilities.
 
-The Midday Dip (11:00 AM – 3:00 PM): Emissions often level off or dip slightly in the middle of the day. While commercial building use is high, traffic congestion drops. Concurrently, urban parks and greenery actively absorb \(\text{CO}_{2}\) via photosynthesis, mitigating some local emissions.
+The Midday Dip (11:00 AM – 3:00 PM): Emissions often level off or dip slightly in the middle of the day. While commercial building use is high, traffic congestion drops. Concurrently, urban parks and greenery actively absorb CO2 via photosynthesis, mitigating some local emissions.
 
 The Evening Peak (5:00 PM – 8:00 PM): A second, broader peak occurs as the evening rush hour brings commuters home, and residential energy use for heating, cooling, lighting, and cooking surges.
 
