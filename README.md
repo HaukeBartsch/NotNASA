@@ -1,9 +1,6 @@
 # This is not NASA - Weather simulation
 
-Generate a weather simulation for planet earth. General goal is to simulate CO2 distribution over time from fire and high density populated areas.
-
-**Folder guide:** [sim/](sim/README.md) (physics engine) · [server/](server/README.md) (API bridge) · [viewer/](viewer/README.md) (renderer) · [capture/](capture/README.md) (movie capture) · [tests/](tests/README.md) (invariant checks) · [data/](data/README.md) (input data)
-
+Instructions: Generate a weather simulation for planet earth. General goal is to simulate CO2 distribution over time from fire and high density populated areas.
 
 Step 1) Create a discretized spherical model of the planet (scaled by a variable factor). Simplify the finite element model between ground-level (higher resolution at ground, lower resolution at the oceans) and at athmospheric height of 100km (lowest uniform resolution). Implement a convection algorithms that can transfers CO2 in this finite element grid. Add sources that simulate forest fires and CO2 sources from highly populated areas.
 
@@ -11,7 +8,7 @@ Step 1) Create a discretized spherical model of the planet (scaled by a variable
 
 The simulation can cover a 1 year period and should be detailed enough to display the daily cycle of CO2 generated mostly by dense population areas and forest fires - with fires flaring up during daytime and dying down during the night.
 
-
+**Folder guide:** [sim/](sim/README.md) (physics engine) · [server/](server/README.md) (API bridge) · [viewer/](viewer/README.md) (renderer) · [capture/](capture/README.md) (movie capture) · [tests/](tests/README.md) (invariant checks) · [data/](data/README.md) (input data)
 
 # CO₂ Weather Simulation + Movie — Implementation Plan
 
