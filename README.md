@@ -1,6 +1,6 @@
 # This is not NASA - Weather simulation
 
-Instructions: Generate a weather simulation for planet earth. General goal is to simulate CO2 distribution over time from fire and high density populated areas.
+Instructions to Qwen3.8 27B: Generate a weather simulation for planet earth. General goal is to simulate CO2 distribution over time from fire and high density populated areas.
 
 1) Create a discretized spherical model of the planet (scaled by a variable factor). Simplify the finite element model between ground-level (higher resolution at ground, lower resolution at the oceans) and at athmospheric height of 100km (lowest uniform resolution). Implement a convection algorithms that can transfers CO2 in this finite element grid. Add sources that simulate forest fires and CO2 sources from highly populated areas.
 
