@@ -8,6 +8,14 @@ Instructions to Qwen3.8 27B: Generate a weather simulation for planet earth. Gen
 
 The simulation can cover a 1 year period and should be detailed enough to display the daily cycle of CO2 generated mostly by dense population areas and forest fires - with fires flaring up during daytime and dying down during the night.
 
+
+
+https://github.com/user-attachments/assets/cc29ef12-0ae6-47db-99f1-3babfe0e3b32
+
+
+
+
+
 **Folder guide:** [sim/](sim/README.md) (physics engine) · [server/](server/README.md) (API bridge) · [viewer/](viewer/README.md) (renderer) · [capture/](capture/README.md) (movie capture) · [tests/](tests/README.md) (invariant checks) · [data/](data/README.md) (input data)
 
 # CO₂ Weather Simulation + Movie — Implementation Plan
